@@ -1,6 +1,6 @@
 from openai import OpenAI
 import os
-
+#api_key come on os
 api_key=os.getenv("API_KEY")
 
 client = OpenAI(
